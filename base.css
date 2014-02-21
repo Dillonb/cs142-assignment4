@@ -1,0 +1,16 @@
+footer span#author:after {
+    content: "Dillon Beliveau, Doug Krieger, Sam Reinhardt";
+}
+article#mainContent {
+    max-width:920px;
+    margin:auto;
+}
+nav#mainMenu {
+}
+nav#mainMenu ol {
+}
+nav#mainMenu ol li {
+    display:inline;
+}
+nav#mainMenu ol li.activeLink {
+}
