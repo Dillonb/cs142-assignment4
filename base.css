@@ -1,16 +1,44 @@
 footer span#author:after {
     content: "Dillon Beliveau, Doug Krieger, Sam Reinhardt";
 }
+body {
+    padding:0px;
+    margin:0px;
+    font-family: sans-serif;
+}
 article#mainContent {
     max-width:920px;
     margin:auto;
 }
 nav#mainMenu {
+    background-color:rgb(85,85,85);
 }
 nav#mainMenu ol {
 }
-nav#mainMenu ol li {
+nav#mainMenu ol li.menuLink {
     display:inline;
 }
-nav#mainMenu ol li.activeLink {
+.menuLink {
+}
+.menuLink a {
+    display:inline-block;
+    text-decoration:none;
+    padding:20px;
+    border-right:1px solid darkgray;
+}
+.menuLink:nth-child(1) a {
+    border-left:1px solid darkgray;
+}
+nav#mainMenu ol li.menuLink.activeLink a {
+    color:rgb(255,244,191);
+}
+nav#mainMenu ol li.menuLink.activeLink a:hover {
+    text-shadow:0px 0px 5px rgba(255,244,191);
+}
+nav#mainMenu ol li.menuLink a {
+    color:rgba(255, 255, 255, 0.901961);
+    transition:text-shadow 0.5s;
+}
+nav#mainMenu ol li.menuLink a:hover {
+    text-shadow:0px 0px 10px rgba(255, 255, 255, 0.901961);
 }
