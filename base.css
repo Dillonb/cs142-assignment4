@@ -15,22 +15,22 @@ body {
 }
 article#mainContent {
     max-width:1200px;
-	width:80%;
-	min-width:800px;
+    width:80%;
+    min-width:800px;
     margin:auto;
 }
 nav#mainMenu {
     background-color:rgb(85,85,85);
 }
-nav#mainMenu:after{
-	display:block;
-	height:10px;
-	background-color:#3399FF;
-	width:100%;
-	content:"";
+nav#mainMenu:after {
+    display:block;
+    height:10px;
+    background-color:#3399FF;
+    width:100%;
+    content:"";
 }
 nav#mainMenu ol {
-	margin:0;
+    margin:0;
 
 }
 nav#mainMenu ol li.menuLink {
@@ -41,11 +41,11 @@ nav#mainMenu ol li.menuLink {
 .menuLink a {
     display:inline-block;
     text-decoration:none;
-	margin-top:20px;
-	padding-top:10px;
-	padding-bottom:20px;
-	text-align:center;
-	width: 150px;
+    margin-top:20px;
+    padding-top:10px;
+    padding-bottom:20px;
+    text-align:center;
+    width: 150px;
 }
 nav#mainMenu ol li.menuLink.activeLink a {
     color:rgb(255,244,191);
@@ -56,12 +56,12 @@ nav#mainMenu ol li.menuLink.activeLink a:hover {
 nav#mainMenu ol li.menuLink a {
     color:rgba(255, 255, 255, 0.901961);
     transition:text-shadow 0.5s;
-	transition: background-color .5s;
-	margin-bottom: -10px;
+    transition: background-color .5s;
+    margin-bottom: -10px;
 }
 nav#mainMenu ol li.menuLink a:hover {
     text-shadow:0px 0px 10px rgba(255, 255, 255, 0.901961);
-	background-color: rgba(0,0,0,0.15);
+    background-color: rgba(0,0,0,0.15);
 }
 
 header a {
@@ -75,7 +75,7 @@ header {
 }
 h1#classtitle {
     font-size:1.5em;
-	font-weight: normal;
+    font-weight: normal;
 }
 h1#classtitle a {
     text-decoration:none;
@@ -94,14 +94,36 @@ right:30px;
 top:20px;
 }
 #studentInfo a {
-	color:#3399FF;
+    color:#3399FF;
 }
 #studentName a:before, #studentName a:after{
-	content: "  ";
+    content: "  ";
 }
 
 @media (max-width:1159px){
-	h1#classtitle {
-		font-size: 1em;
-	}
+    h1#classtitle {
+    font-size: 1em;
+    }
+}
+
+/* Calendar */
+
+table.vcalendar, table.vcalendar td, table.vcalendar th {
+    border:1px solid black;
+}
+table.vcalendar td {
+    height:125px;
+    width:200px;
+    vertical-align:text-top;
+}
+table.vcalendar tr#attendanceRow td {
+    height:auto;
+}
+table.vcalendar td div.date {
+    width:120px;
+    display:inline-block;
+    height:30px;
+    background-color:lightgray;
+    float:left;
+    top:0px;
 }
