@@ -1,3 +1,10 @@
+/* quick color reference:
+grey: rgba(255, 255, 255, 0.901961);
+overlay: rgba(0,0,0,0.15);
+blue accent: #3399FF
+*/
+
+
 footer span#author:after {
     content: "Dillon Beliveau, Doug Krieger, Sam Reinhardt";
 }
@@ -7,13 +14,24 @@ body {
     font-family: sans-serif;
 }
 article#mainContent {
-    max-width:920px;
+    max-width:1200px;
+	width:80%;
+	min-width:800px;
     margin:auto;
 }
 nav#mainMenu {
     background-color:rgb(85,85,85);
 }
+nav#mainMenu:after{
+	display:block;
+	height:10px;
+	background-color:#3399FF;
+	width:100%;
+	content:"";
+}
 nav#mainMenu ol {
+	margin:0;
+
 }
 nav#mainMenu ol li.menuLink {
     display:inline;
@@ -23,11 +41,11 @@ nav#mainMenu ol li.menuLink {
 .menuLink a {
     display:inline-block;
     text-decoration:none;
-    padding:20px;
-    border-right:1px solid darkgray;
-}
-.menuLink:nth-child(1) a {
-    border-left:1px solid darkgray;
+	margin-top:20px;
+	padding-top:10px;
+	padding-bottom:20px;
+	text-align:center;
+	width: 150px;
 }
 nav#mainMenu ol li.menuLink.activeLink a {
     color:rgb(255,244,191);
@@ -38,9 +56,12 @@ nav#mainMenu ol li.menuLink.activeLink a:hover {
 nav#mainMenu ol li.menuLink a {
     color:rgba(255, 255, 255, 0.901961);
     transition:text-shadow 0.5s;
+	transition: background-color .5s;
+	margin-bottom: -10px;
 }
 nav#mainMenu ol li.menuLink a:hover {
     text-shadow:0px 0px 10px rgba(255, 255, 255, 0.901961);
+	background-color: rgba(0,0,0,0.15);
 }
 
 header a {
@@ -51,10 +72,10 @@ header {
     color:rgba(255, 255, 255, 0.901961);
     background-color:rgb(85,85,85);
     padding:10px;
-    margin-bottom:20px;
 }
 h1#classtitle {
     font-size:1.5em;
+	font-weight: normal;
 }
 h1#classtitle a {
     text-decoration:none;
@@ -66,4 +87,21 @@ aside#studentInfo {
 }
 nav#toolmenu {
     display:none;
+}
+#studentInfo{
+position:absolute;
+right:30px;
+top:20px;
+}
+#studentInfo a {
+	color:#3399FF;
+}
+#studentName a:before, #studentName a:after{
+	content: "  ";
+}
+
+@media (max-width:1159px){
+	h1#classtitle {
+		font-size: 1em;
+	}
 }
