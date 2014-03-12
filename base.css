@@ -191,3 +191,7 @@ nav#adminMenu ol li.menuLink a {
     color:rgba(255, 255, 255, 0.901961);
 
 }
+
+img[src="media/earth.jpg"] {
+    display:none;
+}
