@@ -198,39 +198,39 @@ img[src="media/earth.jpg"] {
 }
 /* statuses */
 .Excused {
-color: #aa0011 !important;
-background: #ffadad !important;
-text-align: center; 
+    color: #aa0011 !important;
+    background: #ffadad !important;
+    text-align: center; 
 }
 
 .labComplete {
     color: #24B300 !important;
-   background: #ffcfcf !important;
-  text-align: center; 
+    background: #ffcfcf !important;
+    text-align: center; 
 }
 .Late {
-   color: #24B300 !important;
-  background: #ddffdf !important;
- text-align: center; 
+    color: #24B300 !important;
+    background: #ddffdf !important;
+    text-align: center; 
 }
 
 .Personal {
- color: #aa0011 !important;
+    color: #aa0011 !important;
     background: #ffcfcf !important;
-   text-align: center; 
+    text-align: center; 
 }
 
 .Present {
-   color: #24B300 !important;
-  background: #CCFFBF !important;
- text-align: center;
+    color: #24B300 !important;
+    background: #CCFFBF !important;
+    text-align: center;
 }
 
 .presentation {
- border: dashed medium #ff0000 !important;
+    border: dashed medium #ff0000 !important;
 }
 .Sick {
-  color: #aa0011 !important;
- background: #ffadad !important;
+    color: #aa0011 !important;
+    background: #ffadad !important;
     text-align: center; 
 }
