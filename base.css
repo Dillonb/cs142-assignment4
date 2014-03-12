@@ -19,6 +19,10 @@ article#mainContent {
     min-width:800px;
     margin:auto;
 }
+/* Fix spacing on calendar page on small screens */
+body#calendar article#mainContent {
+    min-width:1200px;
+}
 nav#mainMenu {
     background-color:rgb(85,85,85);
 }
@@ -157,6 +161,7 @@ a.callInSick {
     z-index:2;
     margin-top:2px;
     margin-left:1px;
+    text-decoration:none;
 }
 a.callInSick img {
     display:none;
@@ -166,9 +171,10 @@ a.callInSick:after {
     text-decoration:none;
     color:white;
     margin-left:2px;
+    padding:5px;
 }
-a.callInSick:after:hover {
-
+a.callInSick:hover {
+    background-color:rgba(0,0,0,0.15);
 }
 nav#adminMenu {
     width: 200px;
