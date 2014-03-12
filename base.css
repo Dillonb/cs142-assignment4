@@ -149,6 +149,7 @@ table.vcalendar td div.date {
     margin-top:-1px;
     margin-left:-1px;
     padding-top:3px;
+    border-bottom:1px solid black;
 }
 a.callInSick {
     position:absolute;
@@ -190,4 +191,43 @@ nav#adminMenu ol li.menuLink a:hover {
 nav#adminMenu ol li.menuLink a {
     color:rgba(255, 255, 255, 0.901961);
 
+}
+
+/* statuses */
+.Excused {
+color: #aa0011 !important;
+background: #ffadad !important;
+text-align: center; 
+}
+
+.labComplete {
+    color: #24B300 !important;
+   background: #ffcfcf !important;
+  text-align: center; 
+}
+.Late {
+   color: #24B300 !important;
+  background: #ddffdf !important;
+ text-align: center; 
+}
+
+.Personal {
+ color: #aa0011 !important;
+    background: #ffcfcf !important;
+   text-align: center; 
+}
+
+.Present {
+   color: #24B300 !important;
+  background: #CCFFBF !important;
+ text-align: center;
+}
+
+.presentation {
+ border: dashed medium #ff0000 !important;
+}
+.Sick {
+  color: #aa0011 !important;
+ background: #ffadad !important;
+    text-align: center; 
 }
