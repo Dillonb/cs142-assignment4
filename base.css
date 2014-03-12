@@ -96,7 +96,7 @@ top:20px;
 #studentInfo a {
     color:#3399FF;
 }
-#studentName a:before, #studentName a:after{
+#studentName a:before, #studentName a:after {
     content: "  ";
 }
 
@@ -107,23 +107,87 @@ top:20px;
 }
 
 /* Calendar */
+table.vcalendar {
+    table-layout:fixed;
+    border-collapse:collapse;
+    width:1200px;
+
+}
+table.vcalendar div.event {
+    display:block;
+    width:100%;
+    margin-top:40px;
+}
 
 table.vcalendar, table.vcalendar td, table.vcalendar th {
     border:1px solid black;
+    box-sizing:border-box;
+}
+table.vcalendar th {
+    break-word:word-wrap;
 }
 table.vcalendar td {
     height:125px;
-    width:200px;
     vertical-align:text-top;
+    overflow:hidden;
+    break-word:word-wrap;
 }
 table.vcalendar tr#attendanceRow td {
     height:auto;
 }
 table.vcalendar td div.date {
-    width:120px;
-    display:inline-block;
+    color:rgba(255, 255, 255, 0.901961);
+    width:171px;
+    display:block;
     height:30px;
-    background-color:lightgray;
-    float:left;
-    top:0px;
+    text-align:right;
+    overflow:hidden;
+    padding-right:10px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    background-color:rgb(85,85,85);
+    margin-top:-1px;
+    margin-left:-1px;
+    padding-top:3px;
+}
+a.callInSick {
+    position:absolute;
+    display:block;
+    z-index:2;
+    margin-top:2px;
+    margin-left:1px;
+}
+a.callInSick img {
+    display:none;
+}
+a.callInSick:after {
+    content:"Sick";
+    text-decoration:none;
+    color:white;
+    margin-left:2px;
+}
+a.callInSick:after:hover {
+
+}
+nav#adminMenu {
+    width: 200px;
+    margin-left:-180px;
+    position:absolute;
+    background-color:rgb(85,85,85);
+    color:rgba(255, 255, 255, 0.901961);
+}
+nav#adminMenu:hover {
+    margin-left:-30px;
+    transition:margin-left 0.5s;
+}
+nav#adminMenu ol {
+    list-style-type:none;
+}
+nav#adminMenu ol li.menuLink a:hover {
+    background-color:rgba(0,0,0,0.15);
+}
+
+nav#adminMenu ol li.menuLink a {
+    color:rgba(255, 255, 255, 0.901961);
+
 }
