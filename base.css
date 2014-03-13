@@ -5,6 +5,13 @@ blue accent: #3399FF
 */
 
 
+footer {
+    border-top:5px solid #3399FF;
+    background-color:rgb(85, 85, 85);
+    position:fixed;
+    bottom:0px;
+    width:100%;
+}
 footer span#author:after {
     content: "Dillon Beliveau, Doug Krieger, Sam Reinhardt";
 }
@@ -18,11 +25,12 @@ article#mainContent {
     width:80%;
     min-width:800px;
     margin:auto;
+    padding-bottom:100px;
 }
 a{
     color:#3399ff;
 }
-a:hover{
+a:hover {
     color:#7FBFFF;
 }
 /* Fix spacing on calendar page on small screens */
@@ -264,4 +272,14 @@ img[src="media/earth.jpg"] {
     color: #aa0011 !important;
     background: #ffadad !important;
     text-align: center; 
+}
+
+/* assignments page */
+
+body#assignments ol.AssignmentsLink {
+    list-style-type:none;
+}
+body#assignments ol.AssignmentsLink li {
+    padding-top:5px;
+    padding-bottom:5px;
 }
