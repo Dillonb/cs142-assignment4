@@ -279,7 +279,31 @@ img[src="media/earth.jpg"] {
 body#assignments ol.AssignmentsLink, body#lectures ol.LecturesLink {
     list-style-type:none;
 }
+
 body#assignments ol.AssignmentsLink li, body#lectures ol.LecturesLink li {
     padding-top:5px;
     padding-bottom:5px;
+}
+
+/* Call in sick page */
+
+body#sick form#callInSick {
+    margin-top:20px;
+}
+body#sick form#callInSick:before {
+    content:"Call in Sick";
+    display:block;
+    padding-left:0px;
+    font-size:18pt;
+    padding-left:25px;
+}
+body#sick form#callInSick fieldset.form {
+    border:none;
+}
+body#sick form#callInSick fieldset.form fieldset {
+    border:none;
+}
+body#sick textarea#txtComments {
+    display:block;
+    width:100%;
 }
