@@ -19,6 +19,12 @@ article#mainContent {
     min-width:800px;
     margin:auto;
 }
+a{
+    color:#3399ff;
+}
+a:hover{
+    color:#7FBFFF;
+}
 /* Fix spacing on calendar page on small screens */
 body#calendar article#mainContent {
     min-width:1200px;
@@ -109,23 +115,42 @@ top:20px;
     font-size: 1em;
     }
 }
-
+/* resources page */
+#otherMedia ol li{
+    display:inline-block;
+    width:40%;
+    min-width:250px;
+    margin-bottom:20px; 
+}
+#otherMedia figure {
+    margin:0;
+}
+#otherMedia figure a{ 
+    font-size:1.3em;
+    text-decoration:none;
+}
 /* Calendar */
 table.vcalendar {
     table-layout:fixed;
-    border-collapse:collapse;
     width:1200px;
-
+    border-collapse:collapse;
 }
 table.vcalendar div.event {
     display:block;
     width:100%;
     margin-top:40px;
 }
-
-table.vcalendar, table.vcalendar td, table.vcalendar th {
-    border:1px solid black;
-    box-sizing:border-box;
+table.vcalendar #monthTitle{
+    height:70px;
+    vertical-align:bottom;
+    font-size:1.13em;
+}
+table.vcalendar #thismonth{
+    font-size:1.5em;
+}
+table.vcalendar #days{
+    font-size:1.3em;
+    height:30px;
 }
 table.vcalendar th {
     break-word:word-wrap;
@@ -133,32 +158,32 @@ table.vcalendar th {
 table.vcalendar td {
     height:125px;
     vertical-align:text-top;
-    overflow:hidden;
     break-word:word-wrap;
+    padding:5px;
+    margin:0;
+    border:black 1px solid;
 }
 table.vcalendar tr#attendanceRow td {
     height:auto;
 }
 table.vcalendar td div.date {
     color:rgba(255, 255, 255, 0.901961);
-    width:171px;
     display:block;
-    height:30px;
+    height:25px;
+    max-width:100%;
     text-align:right;
     overflow:hidden;
-    padding-right:10px;
-    box-sizing:border-box;
-    -moz-box-sizing:border-box;
     background-color:rgb(85,85,85);
-    margin-top:-1px;
-    margin-left:-1px;
-    padding-top:3px;
+    padding-top:5px;
+    padding-right:10px;
     border-bottom:1px solid black;
 }
 a.callInSick {
     position:absolute;
     display:block;
     z-index:2;
+    height:25px;
+    width:75px;
     margin-top:2px;
     margin-left:1px;
     text-decoration:none;
