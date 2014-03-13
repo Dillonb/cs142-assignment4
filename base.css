@@ -276,10 +276,10 @@ img[src="media/earth.jpg"] {
 
 /* assignments page */
 
-body#assignments ol.AssignmentsLink {
+body#assignments ol.AssignmentsLink, body#lectures ol.LecturesLink {
     list-style-type:none;
 }
-body#assignments ol.AssignmentsLink li {
+body#assignments ol.AssignmentsLink li, body#lectures ol.LecturesLink li {
     padding-top:5px;
     padding-bottom:5px;
 }
