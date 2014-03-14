@@ -311,6 +311,23 @@ body#sick textarea#txtComments {
     width:100%;
 }
 
+/* Syllabus page */
+#syllabus p, #syllabus table {
+    margin-left:2.5em;
+}
+#syllabus ol, #syllabus ul {
+    list-style-type:none;
+}
+#syllabus table, #syllabus td, #syllabus th{
+    border: 1px solid black;
+}
+#syllabus table {
+    border-collapse:collapse;
+}
+#syllabus td, #syllabus th {
+    padding:.5em 1em .5em 1em;
+}
+
 /* Submit assignment page */
 body#submitAssignment section#submit h2.submith1 {
     width: auto;
