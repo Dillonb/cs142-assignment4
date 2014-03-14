@@ -128,12 +128,12 @@ top:20px;
     display:inline-block;
     width:40%;
     min-width:250px;
-    margin-bottom:20px; 
+    margin-bottom:20px;
 }
 #otherMedia figure {
     margin:0;
 }
-#otherMedia figure a{ 
+#otherMedia figure a{
     font-size:1.3em;
     text-decoration:none;
 }
@@ -239,24 +239,24 @@ img[src="media/earth.jpg"] {
 .Excused {
     color: #aa0011 !important;
     background: #ffadad !important;
-    text-align: center; 
+    text-align: center;
 }
 
 .labComplete {
     color: #24B300 !important;
     background: #ffcfcf !important;
-    text-align: center; 
+    text-align: center;
 }
 .Late {
     color: #24B300 !important;
     background: #ddffdf !important;
-    text-align: center; 
+    text-align: center;
 }
 
 .Personal {
     color: #aa0011 !important;
     background: #ffcfcf !important;
-    text-align: center; 
+    text-align: center;
 }
 
 .Present {
@@ -271,7 +271,7 @@ img[src="media/earth.jpg"] {
 .Sick {
     color: #aa0011 !important;
     background: #ffadad !important;
-    text-align: center; 
+    text-align: center;
 }
 
 /* assignments page */
@@ -307,3 +307,4 @@ body#sick textarea#txtComments {
     display:block;
     width:100%;
 }
+
