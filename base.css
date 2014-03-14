@@ -12,6 +12,11 @@ footer {
     bottom:0px;
     width:100%;
 }
+footer p {
+    margin-top: 8px;
+    margin-bottom: 5px;
+    padding-left:10px;
+}
 footer span#author:after {
     content: "Dillon Beliveau, Doug Krieger, Sam Reinhardt";
 }
