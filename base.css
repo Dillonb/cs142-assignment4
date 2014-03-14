@@ -308,3 +308,22 @@ body#sick textarea#txtComments {
     width:100%;
 }
 
+body#submitAssignment section#submit h2.submith1 {
+    width: auto;
+    float:left;
+}
+body#submitAssignment form#chooseAssignment {
+    float:left;
+    margin-top:18px;
+}
+body#submitAssignment form#chooseAssignment fieldset {
+    border:none;
+}
+
+body#submitAssignment form#frmSubmit {
+    display:block;
+    margin-top:100px;
+}
+body#submitAssignment form#frmSubmit fieldset {
+    border:none;
+}
