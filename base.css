@@ -26,6 +26,27 @@ article#mainContent {
     min-width:800px;
     margin:auto;
     padding-bottom:100px;
+    border-left:1px solid lightgray;
+    border-right:1px solid lightgray;
+    padding-left:5px;
+    padding-right:5px;
+    border-top:1px solid lightgray;
+    padding-top:5px;
+    margin-top:10px;
+    box-shadow: 0px 0px 5px 2px lightgray;
+}
+article#mainContent h1, article#mainContent h2 {
+    margin-left:40px;
+}
+body#calendar article#mainContent {
+    border-left:none;
+    border-right:none;
+    padding-left:5px;
+    padding-right:5px;
+    border-top:none;
+    padding-top:5px;
+    margin-top:10px;
+    box-shadow: none;
 }
 a{
     color:#3399ff;
@@ -69,7 +90,7 @@ nav#mainMenu ol li.menuLink.activeLink a {
     color:rgb(255,244,191);
 }
 nav#mainMenu ol li.menuLink.activeLink a:hover {
-    text-shadow:0px 0px 5px rgba(255,244,191);
+    text-shadow:0px 0px 5px rgb(255,244,191);
 }
 nav#mainMenu ol li.menuLink a {
     color:rgba(255, 255, 255, 0.901961);
@@ -163,13 +184,9 @@ table.vcalendar #days{
     font-size:1.3em;
     height:30px;
 }
-table.vcalendar th {
-    break-word:word-wrap;
-}
 table.vcalendar td {
     height:125px;
     vertical-align:text-top;
-    break-word:word-wrap;
     padding:5px;
     margin:0;
     border:black 1px solid;
