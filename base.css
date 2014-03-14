@@ -308,6 +308,7 @@ body#sick textarea#txtComments {
     width:100%;
 }
 
+/* Submit assignment page */
 body#submitAssignment section#submit h2.submith1 {
     width: auto;
     float:left;
