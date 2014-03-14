@@ -348,13 +348,19 @@ body#sick textarea#txtComments {
     padding:.5em 1em .5em 1em;
 }
 #syllabus li {
-    line-height:2em;
+    /*line-height:2em;*/
+    padding-top:.5em;
+    padding-bottom:.5em;
 }
 #syllabus h3 {
     margin-left:2.2em;
 }
 #syllabus h2, h3 {
     margin-top:2em;
+}
+#syllabus nav ol {
+    padding-top:0em;
+    padding-bottom:0em; 
 }
 #syllabus #grading {
     float:left;
