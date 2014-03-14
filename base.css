@@ -123,14 +123,12 @@ h1#classtitle a {
 aside#studentInfo {
     color:rgba(255, 255, 255, 0.901961);
     background-color:rgb(85,85,85);
+    position:absolute;
+    right:30px;
+    top:20px;
 }
 nav#toolmenu {
     display:none;
-}
-#studentInfo{
-position:absolute;
-right:30px;
-top:20px;
 }
 #studentInfo a {
     color:#3399FF;
@@ -142,6 +140,12 @@ top:20px;
 @media (max-width:1159px){
     h1#classtitle {
     font-size: 1em;
+    }
+}
+@media (max-width:920px) {
+    aside#studentInfo {
+        left:10px;
+        top:60px;
     }
 }
 /* resources page */
