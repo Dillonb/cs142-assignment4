@@ -309,6 +309,8 @@ body#assignments ol.AssignmentsLink li, body#lectures ol.LecturesLink li {
 
 body#sick form#callInSick {
     margin-top:20px;
+    margin-left:.8em;
+    margin-right:.8em;
 }
 body#sick form#callInSick:before {
     content:"Call in Sick";
@@ -316,6 +318,7 @@ body#sick form#callInSick:before {
     padding-left:0px;
     font-size:18pt;
     padding-left:25px;
+    font-weight:bold;
 }
 body#sick form#callInSick fieldset.form {
     border:none;
