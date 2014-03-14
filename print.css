@@ -69,3 +69,55 @@ a.callInSick, a.callInSick img {
 img[src="media/earth.jpg"] {
     display:none;
 }
+
+/* Syllabus page */
+#syllabus img {
+    display:none;
+}
+#syllabus p, #syllabus table {
+    margin-left:2.5em;
+    margin-right:2.5em;
+}
+#syllabus ol, #syllabus ul {
+    list-style-type:none;
+    margin-right:2.5em;
+    margin-left:2.5em;
+}
+#syllabus table, #syllabus td, #syllabus th{
+    border: 1px solid black;
+}
+#syllabus table {
+    border-collapse:collapse;
+}
+#syllabus td, #syllabus th {
+    padding:.5em 1em .5em 1em;
+}
+#syllabus li {
+    /*line-height:2em;*/
+    padding-top:.5em;
+    padding-bottom:.5em;
+}
+#syllabus h3 {
+    margin-left:2.2em;
+}
+/*
+#syllabus h2, h3 {
+    margin-top:2em;
+}
+*/
+#syllabus nav ol {
+    padding-top:0em;
+    padding-bottom:0em;
+}
+#syllabus #grading {
+    float:left;
+    margin-right:1em;
+}
+#syllabus .emailText {
+    background-color:#555555;
+    color:#555555;
+}
+#syllabus .emailText:hover {
+    background-color:#FFFFFF;
+    color:#000000
+}
