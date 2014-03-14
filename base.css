@@ -137,6 +137,9 @@ top:20px;
     font-size:1.3em;
     text-decoration:none;
 }
+#otherMedia > h1 {
+    display:none;
+}
 /* Calendar */
 table.vcalendar {
     table-layout:fixed;
