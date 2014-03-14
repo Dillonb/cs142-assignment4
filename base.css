@@ -336,6 +336,7 @@ body#sick textarea#txtComments {
 #syllabus ol, #syllabus ul {
     list-style-type:none;
     margin-right:2.5em;
+    margin-left:2.5em;
 }
 #syllabus table, #syllabus td, #syllabus th{
     border: 1px solid black;
@@ -345,6 +346,27 @@ body#sick textarea#txtComments {
 }
 #syllabus td, #syllabus th {
     padding:.5em 1em .5em 1em;
+}
+#syllabus li {
+    line-height:2em;
+}
+#syllabus h3 {
+    margin-left:2.2em;
+}
+#syllabus h2, h3 {
+    margin-top:2em;
+}
+#syllabus #grading {
+    float:left;
+    margin-right:1em;
+}
+#syllabus .emailText {
+    background-color:#555555;
+    color:#555555;
+}
+#syllabus .emailText:hover {
+    background-color:#FFFFFF;
+    color:#000000
 }
 
 /* Submit assignment page */
