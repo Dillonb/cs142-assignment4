@@ -383,6 +383,9 @@ body#submitAssignment section#submit h2.submith1 {
     width: auto;
     float:left;
 }
+body#submitAssignment section#submit p {
+    margin-left:2.5em;
+}
 body#submitAssignment form#chooseAssignment {
     float:left;
     margin-top:18px;
