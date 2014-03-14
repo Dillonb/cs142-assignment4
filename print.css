@@ -1,3 +1,7 @@
+* {
+    overflow:hidden;
+}
+/* Hide extra stuff that doesn't need to be printed */
 header {
     display:none;
 }
@@ -7,7 +11,61 @@ aside#studentInfo {
 nav {
     display:none;
 }
+footer {
+    display:none;
+}
+/* Set links to normal text */
 a {
     color:black;
     text-decoration:none;
+}
+
+/* Calendar */
+
+table.vcalendar tr#monthTitle th:nth-child(odd) {
+    display:none;
+}
+table.vcalendar tr#monthTitle th:nth-child(odd) {
+    width:100%;
+}
+tr#attendanceRow {
+    display:none;
+}
+table.vcalendar td {
+    border: 1px solid black;
+    width:14%;
+}
+table.vcalendar {
+    border-collapse:collapse;
+}
+table.vcalendar td div.date {
+    color:black;
+    display:block;
+    height:15px;
+    font-size:10pt;
+    max-width:100%;
+    text-align:right;
+    overflow:hidden;
+    padding-top:5px;
+    padding-right:0px;
+    border-bottom:1px solid black;
+}
+table.vcalendar div.event {
+    display:block;
+    width:100%;
+    margin-top:40px;
+}
+
+table.vcalendar td {
+    height:50px;
+    vertical-align:text-top;
+    padding:5px;
+    margin:0;
+    border:black 1px solid;
+}
+a.callInSick, a.callInSick img {
+    display:none;
+}
+img[src="media/earth.jpg"] {
+    display:none;
 }
