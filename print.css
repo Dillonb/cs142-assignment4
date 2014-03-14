@@ -1,0 +1,13 @@
+header {
+    display:none;
+}
+aside#studentInfo {
+    display:none;
+}
+nav {
+    display:none;
+}
+a {
+    color:black;
+    text-decoration:none;
+}
