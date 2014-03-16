@@ -467,3 +467,6 @@ body#submitAssignment form#frmSubmit div {
     background-color:red;
     color:white;
 }
+td.comments {
+    width:25em;
+}
