@@ -302,6 +302,9 @@ img[src="media/earth.jpg"] {
     background: #ffadad !important;
     text-align: center;
 }
+td.atoday {
+    background-color:lightgray;
+}
 
 /* assignments page */
 
